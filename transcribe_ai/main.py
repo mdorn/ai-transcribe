@@ -12,9 +12,6 @@ logger.setLevel(logging.INFO)
 
 client = OpenAI()
 
-# Define the path to the directory containing audio files
-# path = "/Users/mdorn/Desktop/Oblates Formation Podcasts"
-# path = '/tmp/test'
 
 def transcribe(path):
     """
